@@ -1,0 +1,174 @@
+5:729  0:818  Found BIOS RSDP at F0020
+5:729  0:000  Printing ACPI tables from RSDP F0020 ...
+5:729  0:000   F0020: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+5:729  0:000    (Xsdt: A87030A8, Rsdt: A8703028)
+5:729  0:000    A87030A8: 'XSDT', 'CBX3', Rev: 1, Len: 212
+5:729  0:000    A8703028: 'RSDT', 'CBX3', Rev: 1, Len: 124
+5:729  0:000    Tables in Xsdt: 22
+5:729  0:000    0. A87224D0: 'FACP', 'CBX3', Rev: 5, Len: 268
+5:729  0:000        (Dsdt: A8703210, Facs: A8EE0F80, XDsdt: A8703210, XFacs: 0)
+5:729  0:000        A8703210: 'DSDT', 'CBX3', Rev: 2, Len: 127673
+5:729  0:000        A8EE0F80: 'FACS', Ver: 2, Len: 64
+5:729  0:000    1. A87225E0: 'APIC', 'CBX3', Rev: 3, Len: 132
+5:729  0:000    2. A8722668: 'FPDT', 'CBX3', Rev: 1, Len: 68
+5:729  0:000    3. A87226B0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+5:729  0:000    4. A8722750: 'MCFG', 'CBX3', Rev: 1, Len: 60
+5:729  0:000    5. A8722790: 'HPET', 'CBX3', Rev: 1, Len: 56
+5:729  0:000    6. A87227C8: 'SSDT', 'SataTabl', Rev: 1, Len: 986
+5:729  0:000    7. A8722BA8: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+5:729  0:000    8. A8722C40: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+5:729  0:000    9. A8722E88: 'SSDT', 'PtidDevc', Rev: 2, Len: 3742
+5:729  0:000    10. A8723D28: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 1799
+5:729  0:000    11. A8724430: 'DBGP', '', Rev: 1, Len: 52
+5:729  0:000    12. A8724468: 'DBG2', '', Rev: 0, Len: 97
+5:729  0:000    13. A87244D0: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1917
+5:729  0:000    14. A8724C50: 'BOOT', 'CBX3', Rev: 1, Len: 40
+5:729  0:000    15. A8724C78: 'SSDT', 'SaSsdt', Rev: 2, Len: 13733
+5:729  0:000    16. A8728220: 'UEFI', '', Rev: 1, Len: 66
+5:729  0:000    17. A8728268: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+5:729  0:000    18. A87290E0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+5:729  0:000    19. A8729258: 'BGRT', '', Rev: 0, Len: 56
+5:729  0:000    20. A8729290: 'DMAR', 'SKL', Rev: 1, Len: 240
+5:729  0:000    21. A8729380: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+5:729  0:000    Tables in Rsdt: 22
+5:729  0:000    0. A8703188: 'FACP', 'CBX3', Rev: 2, Len: 132
+5:729  0:000        (Dsdt: A8703210, Facs: A8EE0F40)
+5:729  0:000        A8703210: 'DSDT', 'CBX3', Rev: 2, Len: 127673
+5:729  0:000        A8EE0F40: 'FACS', Ver: 0, Len: 64
+5:729  0:000    1. A87225E0: 'APIC', 'CBX3', Rev: 3, Len: 132
+5:729  0:000    2. A8722668: 'FPDT', 'CBX3', Rev: 1, Len: 68
+5:729  0:000    3. A87226B0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+5:729  0:000    4. A8722750: 'MCFG', 'CBX3', Rev: 1, Len: 60
+5:729  0:000    5. A8722790: 'HPET', 'CBX3', Rev: 1, Len: 56
+5:729  0:000    6. A87227C8: 'SSDT', 'SataTabl', Rev: 1, Len: 986
+5:729  0:000    7. A8722BA8: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+5:729  0:000    8. A8722C40: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+5:729  0:000    9. A8722E88: 'SSDT', 'PtidDevc', Rev: 2, Len: 3742
+5:729  0:000    10. A8723D28: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 1799
+5:729  0:000    11. A8724430: 'DBGP', '', Rev: 1, Len: 52
+5:729  0:000    12. A8724468: 'DBG2', '', Rev: 0, Len: 97
+5:729  0:000    13. A87244D0: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1917
+5:729  0:000    14. A8724C50: 'BOOT', 'CBX3', Rev: 1, Len: 40
+5:729  0:000    15. A8724C78: 'SSDT', 'SaSsdt', Rev: 2, Len: 13733
+5:729  0:000    16. A8728220: 'UEFI', '', Rev: 1, Len: 66
+5:729  0:000    17. A8728268: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+5:729  0:000    18. A87290E0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+5:729  0:000    19. A8729258: 'BGRT', '', Rev: 0, Len: 56
+5:729  0:000    20. A8729290: 'DMAR', 'SKL', Rev: 1, Len: 240
+5:729  0:000    21. A8729380: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+5:729  0:000  Found UEFI Acpi 2.0 RSDP at A8703000
+5:729  0:000  Saving ACPI tables from RSDP A8703000 to EFI\CLOVER\ACPI\origin ...
+5:729  0:000   A8703000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+5:729  0:000    (Xsdt: A87030A8, Rsdt: A8703028)
+5:729  0:000    A87030A8: 'XSDT', 'CBX3', Rev: 1, Len: 212
+5:729  0:000    A8703028: 'RSDT', 'CBX3', Rev: 1, Len: 124
+5:729  0:000    Tables in Xsdt: 22
+5:729  0:000    0. A87224D0: 'FACP', 'CBX3', Rev: 5, Len: 268
+5:729  0:000        (Dsdt: A8703210, Facs: A8EE0F80, XDsdt: A8703210, XFacs: 0)
+5:729  0:000        A8703210: 'DSDT', 'CBX3', Rev: 2, Len: 127673
+5:729  0:000        A8EE0F80: 'FACS', Ver: 2, Len: 64
+5:729  0:000    1. A87225E0: 'APIC', 'CBX3', Rev: 3, Len: 132
+5:729  0:000    2. A8722668: 'FPDT', 'CBX3', Rev: 1, Len: 68
+5:730  0:000    3. A87226B0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+5:730  0:000    4. A8722750: 'MCFG', 'CBX3', Rev: 1, Len: 60
+5:730  0:000    5. A8722790: 'HPET', 'CBX3', Rev: 1, Len: 56
+5:730  0:000    6. A87227C8: 'SSDT', 'SataTabl', Rev: 1, Len: 986
+5:730  0:000    7. A8722BA8: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+5:730  0:000    8. A8722C40: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+5:730  0:000    9. A8722E88: 'SSDT', 'PtidDevc', Rev: 2, Len: 3742
+5:730  0:000    10. A8723D28: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 1799
+5:730  0:000    11. A8724430: 'DBGP', '', Rev: 1, Len: 52
+5:730  0:000    12. A8724468: 'DBG2', '', Rev: 0, Len: 97
+5:730  0:000    13. A87244D0: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1917
+5:730  0:000    14. A8724C50: 'BOOT', 'CBX3', Rev: 1, Len: 40
+5:730  0:000    15. A8724C78: 'SSDT', 'SaSsdt', Rev: 2, Len: 13733
+5:730  0:000    16. A8728220: 'UEFI', '', Rev: 1, Len: 66
+5:730  0:000    17. A8728268: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+5:730  0:000    18. A87290E0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+5:730  0:000    19. A8729258: 'BGRT', '', Rev: 0, Len: 56
+5:730  0:000    20. A8729290: 'DMAR', 'SKL', Rev: 1, Len: 240
+5:730  0:000    21. A8729380: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+5:730  0:000    Tables in Rsdt: 22
+5:730  0:000    0. A8703188: 'FACP', 'CBX3', Rev: 2, Len: 132
+5:730  0:000        (Dsdt: A8703210, Facs: A8EE0F40)
+5:730  0:000        A8703210: 'DSDT', 'CBX3', Rev: 2, Len: 127673
+5:730  0:000        A8EE0F40: 'FACS', Ver: 0, Len: 64
+5:730  0:000    1. A87225E0: 'APIC', 'CBX3', Rev: 3, Len: 132
+5:730  0:000    2. A8722668: 'FPDT', 'CBX3', Rev: 1, Len: 68
+5:730  0:000    3. A87226B0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+5:730  0:000    4. A8722750: 'MCFG', 'CBX3', Rev: 1, Len: 60
+5:730  0:000    5. A8722790: 'HPET', 'CBX3', Rev: 1, Len: 56
+5:730  0:000    6. A87227C8: 'SSDT', 'SataTabl', Rev: 1, Len: 986
+5:730  0:000    7. A8722BA8: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+5:730  0:000    8. A8722C40: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+5:730  0:000    9. A8722E88: 'SSDT', 'PtidDevc', Rev: 2, Len: 3742
+5:730  0:000    10. A8723D28: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 1799
+5:730  0:000    11. A8724430: 'DBGP', '', Rev: 1, Len: 52
+5:730  0:000    12. A8724468: 'DBG2', '', Rev: 0, Len: 97
+5:730  0:000    13. A87244D0: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1917
+5:730  0:000    14. A8724C50: 'BOOT', 'CBX3', Rev: 1, Len: 40
+5:730  0:000    15. A8724C78: 'SSDT', 'SaSsdt', Rev: 2, Len: 13733
+5:730  0:000    16. A8728220: 'UEFI', '', Rev: 1, Len: 66
+5:730  0:000    17. A8728268: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+5:730  0:000    18. A87290E0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+5:730  0:000    19. A8729258: 'BGRT', '', Rev: 0, Len: 56
+5:730  0:000    20. A8729290: 'DMAR', 'SKL', Rev: 1, Len: 240
+5:730  0:000    21. A8729380: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+5:730  0:000  Found UEFI Acpi 1.0 RSDP at A8703000
+5:730  0:000  Printing ACPI tables from RSDP A8703000 ...
+5:730  0:000   A8703000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+5:730  0:000    (Xsdt: A87030A8, Rsdt: A8703028)
+5:730  0:000    A87030A8: 'XSDT', 'CBX3', Rev: 1, Len: 212
+5:730  0:000    A8703028: 'RSDT', 'CBX3', Rev: 1, Len: 124
+5:730  0:000    Tables in Xsdt: 22
+5:730  0:000    0. A87224D0: 'FACP', 'CBX3', Rev: 5, Len: 268
+5:730  0:000        (Dsdt: A8703210, Facs: A8EE0F80, XDsdt: A8703210, XFacs: 0)
+5:730  0:000        A8703210: 'DSDT', 'CBX3', Rev: 2, Len: 127673
+5:730  0:000        A8EE0F80: 'FACS', Ver: 2, Len: 64
+5:730  0:000    1. A87225E0: 'APIC', 'CBX3', Rev: 3, Len: 132
+5:730  0:000    2. A8722668: 'FPDT', 'CBX3', Rev: 1, Len: 68
+5:730  0:000    3. A87226B0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+5:730  0:000    4. A8722750: 'MCFG', 'CBX3', Rev: 1, Len: 60
+5:730  0:000    5. A8722790: 'HPET', 'CBX3', Rev: 1, Len: 56
+5:730  0:000    6. A87227C8: 'SSDT', 'SataTabl', Rev: 1, Len: 986
+5:730  0:000    7. A8722BA8: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+5:730  0:000    8. A8722C40: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+5:730  0:000    9. A8722E88: 'SSDT', 'PtidDevc', Rev: 2, Len: 3742
+5:730  0:000    10. A8723D28: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 1799
+5:730  0:000    11. A8724430: 'DBGP', '', Rev: 1, Len: 52
+5:730  0:000    12. A8724468: 'DBG2', '', Rev: 0, Len: 97
+5:730  0:000    13. A87244D0: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1917
+5:730  0:000    14. A8724C50: 'BOOT', 'CBX3', Rev: 1, Len: 40
+5:730  0:000    15. A8724C78: 'SSDT', 'SaSsdt', Rev: 2, Len: 13733
+5:730  0:000    16. A8728220: 'UEFI', '', Rev: 1, Len: 66
+5:730  0:000    17. A8728268: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+5:730  0:000    18. A87290E0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+5:730  0:000    19. A8729258: 'BGRT', '', Rev: 0, Len: 56
+5:730  0:000    20. A8729290: 'DMAR', 'SKL', Rev: 1, Len: 240
+5:730  0:000    21. A8729380: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+5:730  0:000    Tables in Rsdt: 22
+5:730  0:000    0. A8703188: 'FACP', 'CBX3', Rev: 2, Len: 132
+5:730  0:000        (Dsdt: A8703210, Facs: A8EE0F40)
+5:730  0:000        A8703210: 'DSDT', 'CBX3', Rev: 2, Len: 127673
+5:730  0:000        A8EE0F40: 'FACS', Ver: 0, Len: 64
+5:730  0:000    1. A87225E0: 'APIC', 'CBX3', Rev: 3, Len: 132
+5:730  0:000    2. A8722668: 'FPDT', 'CBX3', Rev: 1, Len: 68
+5:730  0:000    3. A87226B0: 'FIDT', 'CBX3', Rev: 1, Len: 156
+5:730  0:000    4. A8722750: 'MCFG', 'CBX3', Rev: 1, Len: 60
+5:730  0:000    5. A8722790: 'HPET', 'CBX3', Rev: 1, Len: 56
+5:730  0:000    6. A87227C8: 'SSDT', 'SataTabl', Rev: 1, Len: 986
+5:730  0:000    7. A8722BA8: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+5:730  0:000    8. A8722C40: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+5:730  0:000    9. A8722E88: 'SSDT', 'PtidDevc', Rev: 2, Len: 3742
+5:730  0:000    10. A8723D28: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 1799
+5:730  0:000    11. A8724430: 'DBGP', '', Rev: 1, Len: 52
+5:730  0:000    12. A8724468: 'DBG2', '', Rev: 0, Len: 97
+5:730  0:000    13. A87244D0: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1917
+5:730  0:000    14. A8724C50: 'BOOT', 'CBX3', Rev: 1, Len: 40
+5:730  0:000    15. A8724C78: 'SSDT', 'SaSsdt', Rev: 2, Len: 13733
+5:730  0:000    16. A8728220: 'UEFI', '', Rev: 1, Len: 66
+5:730  0:000    17. A8728268: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+5:730  0:000    18. A87290E0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+5:730  0:000    19. A8729258: 'BGRT', '', Rev: 0, Len: 56
+5:730  0:000    20. A8729290: 'DMAR', 'SKL', Rev: 1, Len: 240
+5:730  0:000    21. A8729380: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
