@@ -12,6 +12,10 @@
 			<dict>
 				<key>#Comment-IRQ Fix</key>
 				<string>The following fixes may be needed for onboard audio/USB/etc</string>
+				<key>AddHDMI</key>
+				<true/>
+				<key>FixDisplay</key>
+				<true/>
 				<key>FixHeaders</key>
 				<true/>
 			</dict>
@@ -19,9 +23,93 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>change OSID to XSID (to avoid match against _OSI XOSI patch)</string>
+					<string>change LANC Method(_PRW,0,S) to Method(XPRW,0,..), pair with SSDT-LANC_PRW.aml</string>
 					<key>Disabled</key>
 					<true/>
+					<key>Find</key>
+					<data>
+					AAAZABQfX1BSVwg=
+					</data>
+					<key>Replace</key>
+					<data>
+					AAAZABQfWFBSVwg=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change Method(XSEL,0,N) to XSEZ, pair with SSDT-XSEL.aml</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					WFNFTAA=
+					</data>
+					<key>Replace</key>
+					<data>
+					WFNFWgA=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change Method(XSEL,0,N) to XSEZ, pair with SSDT-XSEL.aml</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					WFNFTAA=
+					</data>
+					<key>Replace</key>
+					<data>
+					WFNFWgA=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change Method(XSEL,0,S) to XSEZ, pair with SSDT-XSEL.aml</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					WFNFTAg=
+					</data>
+					<key>Replace</key>
+					<data>
+					WFNFWgg=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change Method(ESEL,0,N) to ESEZ, pair with SSDT-ESEL.aml</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					RVNFTAA=
+					</data>
+					<key>Replace</key>
+					<data>
+					RVNFWgA=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change Method(ESEL,0,S) to ESEZ, pair with SSDT-ESEL.aml</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					RVNFTAg=
+					</data>
+					<key>Replace</key>
+					<data>
+					RVNFWgg=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change OSID to XSID (to avoid match against _OSI XOSI patch)</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					T1NJRA==
@@ -35,7 +123,7 @@
 					<key>Comment</key>
 					<string>change _OSI to XOSI</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					X09TSQ==
@@ -49,7 +137,7 @@
 					<key>Comment</key>
 					<string>change _DSM to XDSM</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					X0RTTQ==
@@ -63,7 +151,7 @@
 					<key>Comment</key>
 					<string>change EC0 to EC</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					RUMwXw==
@@ -77,7 +165,7 @@
 					<key>Comment</key>
 					<string>change H_EC to EC</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					SF9FQw==
@@ -91,7 +179,7 @@
 					<key>Comment</key>
 					<string>change ECDV to EC</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					RUNEVg==
@@ -183,6 +271,34 @@
 					<key>Replace</key>
 					<data>
 					SUdQVQhfQURSDAAAAgA=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change LPC to LPCB</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					TFBDXw==
+					</data>
+					<key>Replace</key>
+					<data>
+					TFBDQg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change EHC1 to EH01</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					RUhDMQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					RUgwMQ==
 					</data>
 				</dict>
 			</array>
@@ -348,7 +464,7 @@
 	<key>GUI</key>
 	<dict>
 		<key>#ScreenResolution</key>
-		<string>1366x768</string>
+		<string>1920x1080</string>
 		<key>Custom</key>
 		<dict>
 			<key>Entries</key>
@@ -417,7 +533,7 @@
 			<true/>
 		</dict>
 		<key>ig-platform-id</key>
-		<string>0x191b0000</string>
+		<string>0x19160000</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -614,42 +730,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Boot graphics glitch, 10.10.x/10.11.x (credit lisai9093, cecekpawon)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AQAAdRc=
-				</data>
-				<key>MatchOS</key>
-				<string>10.10.x,10.11.x</string>
-				<key>Name</key>
-				<string>com.apple.iokit.IOGraphicsFamily</string>
-				<key>Replace</key>
-				<data>
-				AQAA6xc=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Boot graphics glitch, 10.12.dp1 (credit denskop)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AQAAdSU=
-				</data>
-				<key>MatchOS</key>
-				<string>10.12.x</string>
-				<key>Name</key>
-				<string>com.apple.iokit.IOGraphicsFamily</string>
-				<key>Replace</key>
-				<data>
-				AQAA6yU=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>AirPortBrcm4360 whitelist patch (board-id), 10.12.dp1, credit RehabMan</string>
 				<key>Disabled</key>
 				<false/>
@@ -670,7 +750,7 @@
 				<key>Comment</key>
 				<string>10.10.2+ 5Ghz US FCC, the-darkvoid</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				QYP8/3QsSA==
