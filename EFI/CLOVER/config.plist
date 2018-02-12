@@ -49,7 +49,7 @@
 					<key>Comment</key>
 					<string>change _DSM to XDSM</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X0RTTQ==
@@ -63,7 +63,7 @@
 					<key>Comment</key>
 					<string>change EC0 to EC</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					RUMwXw==
@@ -77,7 +77,7 @@
 					<key>Comment</key>
 					<string>change H_EC to EC</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					SF9FQw==
@@ -183,6 +183,76 @@
 					<key>Replace</key>
 					<data>
 					RUgwMQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change EHC2 to EH02</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					RUhDMg==
+					</data>
+					<key>Replace</key>
+					<data>
+					RUgwMg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change XHCI to XHC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					WEhDSQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WEhDXw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change XHC1 to XHC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					WEhDMQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WEhDXw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change Method(_PTS,1,N) to ZPTS, pair with SSDT-PTSWAK.aml</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1BUUwE=
+					</data>
+					<key>Replace</key>
+					<data>
+					WlBUUwE=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change Method(_WAK,1,N) to ZWAK, pair with SSDT-PTSWAK.aml</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1dBSwE=
+					</data>
+					<key>Replace</key>
+					<data>
+					WldBSwE=
 					</data>
 				</dict>
 			</array>
@@ -445,6 +515,24 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>change 15 port limit to 26 in XHCI kext</string>
+				<key>Disabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				g710////EA==
+				</data>
+				<key>MatchOS</key>
+				<string>10.12.x</string>
+				<key>Name</key>
+				<string>com.apple.driver.usb.AppleUSBXHCIPCI</string>
+				<key>Replace</key>
+				<data>
+				g710////Gw==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>t2-10.11.4-SKL-1912000-Port_0x5-DP2HDM</string>
 				<key>Disabled</key>
 				<false/>
@@ -471,7 +559,7 @@
 				<key>MatchOS</key>
 				<string>10.12.x</string>
 				<key>Name</key>
-				<string>com.apple.driver.AppleIntelSKLGraphicsFramebuffer</string>
+				<string>AppleIntelSKLGraphicsFramebuffer</string>
 				<key>Replace</key>
 				<data>
 				iUXIOcbrUQ==
@@ -481,16 +569,16 @@
 				<key>Comment</key>
 				<string>0x19160000/etc, 32MB BIOS, 19MB framebuffer 9MB cursor bytes (credit RehabMan)</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>
-				AAAgAgAAUAE=
+				AQMDAwAAIAIAAFAB
 				</data>
 				<key>Name</key>
-				<string>com.apple.driver.AppleIntelSKLGraphicsFramebuffer</string>
+				<string>AppleIntelSKLGraphicsFramebuffer</string>
 				<key>Replace</key>
 				<data>
-				AAAwAQAAkAA=
+				AQMDAwAAMAEAAJAA
 				</data>
 			</dict>
 			<dict>
@@ -687,7 +775,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02725501J9DJWN1H</string>
+		<string>C02TW5VBGVC1QWRTY</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -718,6 +806,8 @@
 		<string>Using Haswell MacBookAir6,2 until Clover has support for Skylake identifiers</string>
 		<key>SerialNumber</key>
 		<string>C02TW5VBGVC1</string>
+		<key>SmUUID</key>
+		<string>A44C42D2-7345-4C44-80F5-F73D364370E4</string>
 		<key>Trust</key>
 		<true/>
 		<key>Version</key>
