@@ -672,7 +672,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			D3NIgoTCID6tDIrpxOnspprE4xfOVw8XFMZRtqhcnzs=
+			vPatIFySbbMMDwSrcCFkws5OAl+BbozSMpJ5ATVlv1A=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -724,7 +724,7 @@
 		</dict>
 		<key>version.plist</key>
 		<data>
-		POO8tH4+Q883zTp7rL34tmPpgoDO/gPqowDGNU6vP4A=
+		7gnQPdbCsiwc5pIM22FzRkb97AjgiWWEvjbCrgmnSjE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -733,7 +733,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			GwKqVNLQ+6PyK5rtfsccCA16aik=
+			Ekw/qQ4AnrH0sURf2SyUBWzPeKI=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.driver.AppleHDAController" and anchor apple</string>
@@ -742,7 +742,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			mSGjRrhmSUB+DVMaqnLIvrklhMA=
+			6kaAGwN2LF/4yjh3QYPT8Ur/VDo=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.audio.AppleHDAHALPlugIn" and anchor apple</string>
@@ -751,7 +751,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			deP14GQ9okJMwo49F51PmEQgB30=
+			mC7UnRQ5fTimHvna1+RxP04voNE=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.driver.AppleHDAHardwareConfigDriver" and anchor apple</string>
@@ -760,7 +760,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			KmLdpkscJhSL42/ORrRgWRFiyBE=
+			dCj8aiJJrYCaqSWMfcdshxiN9CQ=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.driver.AppleMikeyDriver" and anchor apple</string>
@@ -769,7 +769,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			jz8n93fSFOy4Ag0UYheUPancZJA=
+			TvQd01ltjVjDdmUW15E36e59Df0=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.driver.DspFuncLib" and anchor apple</string>
@@ -778,7 +778,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			USd1kDRRRUJKvyawlA4QX/GVBtk=
+			bgrYrgM45WUtescO7KpOOCg3Z5w=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.iokit.IOHDAFamily" and anchor apple</string>
@@ -1451,7 +1451,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			D3NIgoTCID6tDIrpxOnspprE4xfOVw8XFMZRtqhcnzs=
+			vPatIFySbbMMDwSrcCFkws5OAl+BbozSMpJ5ATVlv1A=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1503,7 +1503,7 @@
 		</dict>
 		<key>version.plist</key>
 		<data>
-		POO8tH4+Q883zTp7rL34tmPpgoDO/gPqowDGNU6vP4A=
+		7gnQPdbCsiwc5pIM22FzRkb97AjgiWWEvjbCrgmnSjE=
 		</data>
 	</dict>
 	<key>rules</key>
