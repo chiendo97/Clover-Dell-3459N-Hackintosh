@@ -206,7 +206,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>slide=0 dart=0 nv_disable=1 kext-dev-mode=1 shikigva=1</string>
+		<string>slide=0 dart=0 nv_disable=1 kext-dev-mode=1</string>
 		<key>DefaultVolume</key>
 		<string>MacOSX</string>
 		<key>NeverHibernate</key>
@@ -414,8 +414,6 @@
 				<true/>
 				<key>Find</key>
 				<data>AAAIAAIAAACYAAAAAQUJAAAEAAA=</data>
-				<key>InfoPlistPatch</key>
-				<false/>
 				<key>Name</key>
 				<string>com.apple.driver.AppleIntelSKLGraphicsFramebuffer</string>
 				<key>Replace</key>
@@ -428,8 +426,6 @@
 				<false/>
 				<key>Find</key>
 				<data>AQUJAAAEAACHAQAA</data>
-				<key>InfoPlistPatch</key>
-				<false/>
 				<key>Name</key>
 				<string>AppleIntelSKLGraphicsFramebuffer</string>
 				<key>Replace</key>
@@ -442,8 +438,6 @@
 				<false/>
 				<key>Find</key>
 				<data>RiV1VCUwNHgA</data>
-				<key>InfoPlistPatch</key>
-				<false/>
 				<key>Name</key>
 				<string>com.apple.driver.AppleBacklight</string>
 				<key>Replace</key>
@@ -456,8 +450,6 @@
 				<false/>
 				<key>Find</key>
 				<data>YQLsEA==</data>
-				<key>InfoPlistPatch</key>
-				<false/>
 				<key>Name</key>
 				<string>AppleHDA</string>
 				<key>Replace</key>
@@ -470,8 +462,6 @@
 				<false/>
 				<key>Find</key>
 				<data>YgLsEA==</data>
-				<key>InfoPlistPatch</key>
-				<false/>
 				<key>Name</key>
 				<string>AppleHDA</string>
 				<key>Replace</key>
@@ -484,8 +474,6 @@
 				<false/>
 				<key>Find</key>
 				<data>hQjsEA==</data>
-				<key>InfoPlistPatch</key>
-				<false/>
 				<key>Name</key>
 				<string>AppleHDA</string>
 				<key>Replace</key>
@@ -498,8 +486,6 @@
 				<false/>
 				<key>Find</key>
 				<data>hBnUEQ==</data>
-				<key>InfoPlistPatch</key>
-				<false/>
 				<key>Name</key>
 				<string>AppleHDA</string>
 				<key>Replace</key>
@@ -512,8 +498,6 @@
 				<false/>
 				<key>Find</key>
 				<data>AEFQUExFIFNTRAA=</data>
-				<key>InfoPlistPatch</key>
-				<false/>
 				<key>Name</key>
 				<string>com.apple.iokit.IOAHCIBlockStorage</string>
 				<key>Replace</key>
@@ -523,11 +507,9 @@
 				<key>Comment</key>
 				<string>AirPortBrcm4360 whitelist patch (board-id), 10.12.dp1, credit RehabMan</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>MdtMO33YdRI=</data>
-				<key>InfoPlistPatch</key>
-				<false/>
 				<key>MatchOS</key>
 				<string>10.12.x</string>
 				<key>Name</key>
@@ -542,8 +524,6 @@
 				<true/>
 				<key>Find</key>
 				<data>QYP8/3QsSA==</data>
-				<key>InfoPlistPatch</key>
-				<false/>
 				<key>MatchOS</key>
 				<string>10.10.x,10.11.x,10.12.x</string>
 				<key>Name</key>
@@ -555,11 +535,9 @@
 				<key>Comment</key>
 				<string>AirPortBrcm4360 - fcvo, 10.12.x (credit the-darkvoid)</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>gflSqgAAdSk=</data>
-				<key>InfoPlistPatch</key>
-				<false/>
 				<key>MatchOS</key>
 				<string>10.12.x</string>
 				<key>Name</key>
@@ -571,141 +549,11 @@
 				<key>Comment</key>
 				<string>10.11.dp1+ BT4LE-Handoff-Hotspot, credit RehabMan based on Dokterdok original</string>
 				<key>Disabled</key>
-				<true/>
-				<key>Find</key>
-				<data>SIX/dEdIiwc=</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.11.x,10.12.x</string>
-				<key>Name</key>
-				<string>com.apple.iokit.IOBluetoothFamily</string>
-				<key>Replace</key>
-				<data>Qb4PAAAA60Q=</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>10.13-BCM94352-fvco-darkvoid-Sherlocks</string>
-				<key>Disabled</key>
-				<true/>
-				<key>Find</key>
-				<data>gflSqgAAdL8=</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.13.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.AirPort.BrcmNIC-MFG</string>
-				<key>Replace</key>
-				<data>gflSqgAAZpA=</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>10.13-BCM94352-iovar-Sherlocks</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>hdtMi2XIeXE=</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.13.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.AirPort.BrcmNIC-MFG</string>
-				<key>Replace</key>
-				<data>hdtMi2XI63E=</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>10.13-BCM94352-iovar-Sherlocks</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>SIPEEInDhdt5Rg==</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.13.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.AirPort.BrcmNIC-MFG</string>
-				<key>Replace</key>
-				<data>SIPEEInDhdvrRg==</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>10.13-BCM94352-CC-Sebinouse-(edit 55 53 to CC)-PMheart</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>QYP8/3Q1SI1V0A==</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.13.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.AirPort.BrcmNIC-MFG</string>
-				<key>Replace</key>
-				<data>ZscGVVPrNI1V0A==</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>10.13-BCM94352-Airport-Extreme-Skvo-Sherlocks</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>axAAAHUN</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.13.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.AirPort.BrcmNIC-MFG</string>
-				<key>Replace</key>
-				<data>axAAAJCQ</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>10.13-Disable-Whitelist-check-RehabMan</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>MdtMy2XYdRI=</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.11.x,10.12.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.AirPort.BrcmNIC-MFG</string>
-				<key>Replace</key>
-				<data>Mdv/w5CQkJA=</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>10.12+-BCM94352-fvco-darkvoid</string>
-				<key>Disabled</key>
-				<true/>
-				<key>Find</key>
-				<data>gflSqgAAdSk=</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.12.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.AirPort.Brcm4360</string>
-				<key>Replace</key>
-				<data>gflSqgAAZpA=</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>10.11+-BT4LE-Handoff-Hotspot-lisai9093</string>
-				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>SIX/dEdIiwc=</data>
-				<key>InfoPlistPatch</key>
-				<false/>
 				<key>MatchOS</key>
-				<string>10.11.x,10.12.x,10.13.x</string>
+				<string>10.11.x,10.12.x</string>
 				<key>Name</key>
 				<string>com.apple.iokit.IOBluetoothFamily</string>
 				<key>Replace</key>
